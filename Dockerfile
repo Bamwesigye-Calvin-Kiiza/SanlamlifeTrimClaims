@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir \
 EXPOSE 8501
 
 # Run your Streamlit app
-CMD ["streamlit", "run", "update_claims.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "update_claims.py", "--server.port=8502", "--server.address=0.0.0.0"]
